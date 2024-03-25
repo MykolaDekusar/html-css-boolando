@@ -28,7 +28,6 @@ header {
 
 .col-33-2{
     width: calc( 100% / 3 - 16.7px);
-    height: 600px;
 }
 
 .content img{
@@ -103,4 +102,13 @@ a {
 
 .logo-img {
     width: 100px;
+}
+
+.red-text {
+    color: red;
+}
+
+.gray-text-crossed {
+    color: gray;
+    text-decoration: line-through;
 }
