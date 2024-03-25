@@ -1,0 +1,74 @@
+/* SETUP INIZIALE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+
+/* STILE HEADER */
+.row-1 {
+    display: flex;
+}
+
+header {
+    background-color: rgb(255, 115, 0);
+}
+
+.position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.col-33-1 {
+    display: flex;
+    width: calc(100% / 3);
+    align-items: center;
+    padding: 20px;
+}
+
+/* UTILITY */
+
+a {
+    text-decoration: none;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-y-10 {
+    margin: 0 10px;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.small-image-style {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.logo-img {
+    width: 100px;
+}
