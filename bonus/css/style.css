@@ -145,7 +145,7 @@ h4 {
 }
 
 .content:hover .hover-img {
-    margin-bottom: 3.6px;
+    margin-bottom: 0.25em;
     display: block;
 }
 
@@ -183,6 +183,6 @@ h4 {
     font-size: 30px;
 }
 
-.heart:hover{
+.heart:hover {
     color: red;
 }
