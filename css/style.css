@@ -10,13 +10,13 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px dotted black;
 }
 
 /* STILE HEADER */
 
 header {
     background-color: rgb(255, 115, 0);
+    padding: 20px 0 20px 0;
 }
 
 footer {
@@ -27,7 +27,6 @@ footer {
     display: flex;
     width: calc(100% / 3);
     align-items: center;
-    padding: 20px;
 }
 
 .col-33-2{
@@ -47,9 +46,6 @@ footer {
 /* UTILITY */
 .weight-700 {
     font-weight: 700;
-}
-.border {
-    border: 2px dotted black;
 }
 
 .img-fit{
@@ -134,5 +130,48 @@ a {
 h4 {
     margin: 10px 30px 10px 0;
 }
+
+.position-relative {
+    position: relative; 
+}
+
+.hover-img {
+    display: none;
+}
+
+.content:hover .main-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.sostenibilità {
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+
+
+
 
 
