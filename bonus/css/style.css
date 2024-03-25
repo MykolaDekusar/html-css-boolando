@@ -1,0 +1,188 @@
+/* SETUP INIZIALE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* STILE HEADER */
+
+header {
+    background-color: rgb(255, 115, 0);
+    padding: 10PX 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.col-33-1 {
+    display: flex;
+    width: calc(100% / 3);
+    align-items: center;
+}
+
+.col-33-2{
+    width: calc( 100% / 3 - 16.7px);
+}
+
+.col-50 {
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.content img{
+    width: 100%;
+}
+
+/* UTILITY */
+.weight-700 {
+    font-weight: 700;
+}
+
+.img-fit{
+    object-fit: fill;
+}
+.gap-25{
+    gap: 25px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    margin-top: 66.26px;
+    padding: 50px 0;
+}
+
+.position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-y-10 {
+    margin: 0 10px;
+}
+
+.margin-x-10 {
+    margin: 10px 0;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.small-image-style {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.red-text {
+    color: red;
+}
+
+.gray-text-crossed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 20px 30px 10px 0;
+}
+
+.position-relative {
+    position: relative; 
+}
+
+.hover-img {
+    display: none;
+}
+
+.content:hover .main-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    margin-bottom: 3.6px;
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.sostenibilità {
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right:0;
+    padding:5px 15px;
+    font-size: 30px;
+}
+
+.heart:hover{
+    color: red;
+}
