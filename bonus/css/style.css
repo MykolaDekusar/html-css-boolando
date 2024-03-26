@@ -145,8 +145,8 @@ h4 {
 }
 
 .content:hover .hover-img {
-    margin-bottom: 0.25em;
-    display: block;
+    
+    display: inline-block;
 }
 
 .discount {
